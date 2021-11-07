@@ -1,0 +1,43 @@
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\PaperCompany.exe.config
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\PaperCompany.exe
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\PaperCompany.pdb
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\EntityFramework.dll
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\EntityFramework.SqlServer.dll
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\EntityFramework.xml
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\EntityFramework.SqlServer.xml
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\bin\Debug\ru\EntityFramework.resources.dll
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.csprojAssemblyReference.cache
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\MainWindow.g.cs
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\App.g.cs
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany_MarkupCompile.cache
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany_MarkupCompile.lref
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\MainWindow.baml
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.g.resources
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.Properties.Resources.resources
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.csproj.GenerateResource.cache
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.csproj.CoreCompileInputs.cache
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.csproj.CopyComplete
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.exe
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany.pdb
+D:\PAPERCOMPANY\PaperCompany\PaperCompany\obj\Debug\PaperCompany_Content.g.cs
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\PaperCompany.exe.config
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\PaperCompany.exe
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\PaperCompany.pdb
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\EntityFramework.dll
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\EntityFramework.SqlServer.dll
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\EntityFramework.xml
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\EntityFramework.SqlServer.xml
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\bin\Debug\ru\EntityFramework.resources.dll
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.csproj.AssemblyReference.cache
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\MainWindow.g.cs
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\App.g.cs
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany_Content.g.cs
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany_MarkupCompile.cache
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany_MarkupCompile.lref
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\MainWindow.baml
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.g.resources
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.Properties.Resources.resources
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.csproj.GenerateResource.cache
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.csproj.CoreCompileInputs.cache
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.exe
+F:\[ Visual Studio ] [[ Projects ]]\PAPERCOMPANY\PaperCompany\obj\Debug\PaperCompany.pdb
