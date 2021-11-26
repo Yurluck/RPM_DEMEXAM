@@ -1,0 +1,119 @@
+﻿<Page x:Class="PaperCompany.AgentsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PaperCompany"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AgentsPage" IsVisibleChanged="Page_IsVisibleChange">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="2" Background="#C6D7FF"/>
+        <Grid Grid.Row="0" Panel.ZIndex="1" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <TextBlock Text="Введите для поиска:"
+                           Style="{StaticResource MainTextBlockStyle}" Margin="5"/>
+                <TextBox Name="TBoxSearch" TextChanged="TBoxSearch_TextChanged"
+                         Style="{StaticResource MainTextBoxStyle}" Margin="5"/>
+            </StackPanel>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
+                    <TextBlock Text="Сортировка:" Margin="5"
+                               Style="{StaticResource MainTextBlockStyle}"/>
+                    <ComboBox Name="ComboBoxSorting" SelectionChanged="ComboBoxSorting_SelectionChanged"
+                              Style="{StaticResource MainComboBoxStyle}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <TextBlock Text="Фильтрация:"
+                               Style="{StaticResource MainTextBlockStyle}" Margin="5"/>
+                    <ComboBox Name="ComboBoxFiltration" SelectionChanged="ComboBoxFiltration_SelectionChanged"
+                              Style="{StaticResource MainComboBoxStyle}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+        <ListView x:Name="ListAgents"
+                  Grid.Row="1" HorizontalContentAlignment="Stretch"
+                  ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Black" CornerRadius="0" BorderThickness="2">
+                        <Grid ShowGridLines="False">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                            </Grid.RowDefinitions>
+                            <Grid Background="LightGray"
+                                  Grid.Row="0" Grid.RowSpan="4"/>
+                            <Image Grid.RowSpan="4" Grid.Column="0"
+                                   Width="auto">
+                                <Image.Source>
+                                    <Binding Path="Logo">
+                                        <Binding.TargetNullValue>
+                                            <ImageSource>Resources/null_picture.png</ImageSource>
+                                        </Binding.TargetNullValue>
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+
+                            <TextBlock Text="{Binding AgentType.Title}"
+                                       Grid.Row="0" Grid.Column="1"
+                                       Style="{StaticResource MainTextBlockStyle}"
+                                       FontSize="24" FontWeight="Bold" Margin="10, 0"/>
+                            <TextBlock Text="{Binding Title}"                           
+                                       Grid.Row="0" Grid.Column="2"
+                                       Style="{StaticResource MainTextBlockStyle}"
+                                       FontSize="20" FontWeight="Bold" Margin="5, 0"/>
+                            <TextBlock x:Name="TextPtd" Text="{Binding PtdSale, StringFormat={}{0} Продаж за год}"
+                                       Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
+                                       Style="{StaticResource MainTextBlockStyle}" Margin="10, 0"/>
+                            <TextBlock Text="{Binding Discount, StringFormat={}{0}%}"
+                                       Grid.RowSpan="4" Grid.Column="3"
+                                       Style="{StaticResource MainTextBlockStyle}"
+                                       FontSize="36" Margin="10, 0"/>
+                            <TextBlock Text="{Binding Phone, StringFormat={}+{0}}"
+                                       Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"
+                                       Style="{StaticResource MainTextBlockStyle}" Margin="10, 0"/>
+                            <TextBlock Text="{Binding Priority, StringFormat={}Приоритетность: {0}}"
+                                       Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"
+                                       Style="{StaticResource MainTextBlockStyle}" Margin="10, 0"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Name="AddAgentButton" Content="Добавить агента" 
+                Grid.Row="2" 
+                Style="{StaticResource MainButtonStyle}"
+                HorizontalAlignment="Right" Margin="10"
+                Click="AddAgentButton_Click"/>
+     
+        <Image Source="Resources/company_logo.png" 
+               Grid.Row="1" Panel.ZIndex="1" 
+               Opacity=".1" Width="300"/>
+    </Grid>
+</Page>
